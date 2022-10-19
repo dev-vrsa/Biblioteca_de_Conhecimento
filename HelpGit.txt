@@ -1,3 +1,5 @@
+________________________________________________________________________________________________________________________________________________________
+MODO PRATICO > 
 
 
 Iniciando um Repositório
@@ -13,18 +15,18 @@ git push -u origin main
 Apagando um repositório
 $ rm -rf .git
 
-
+________________________________________________________________________________________________________________________________________________________
 Configurar o repositorio remoto > 
 
 $ git config - -global user.name “seu nome”
 $ git config  - - global user.email “seu email”
-
+________________________________________________________________________________________________________________________________________________________
 $ git push <repositório-remoto> <nome-da-branch>. (Vincula o repositorio local a um repositorio remoto)
 
 Ou 
 $ git push -u origin <nome-da-branch>
 
-
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Setar usuário
 git config --global user.name 
@@ -44,7 +46,7 @@ git config --global core.excludesfile ~/.gitignore
 Listar configurações
 git config --list
 
-
+________________________________________________________________________________________________________________________________________________________
 
 Vincular repositório local com um repositório remoto
 git remote add origin
@@ -67,7 +69,7 @@ Listando Arquivos Modificados
 $ git status
 
 
-
+________________________________________________________________________________________________________________________________________________________
 
 O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
 
@@ -79,7 +81,7 @@ Os demais pushes não precisam dessa informação
 git push
 
 
-
+________________________________________________________________________________________________________________________________________________________
 
 Atualizar repositório local de acordo com o repositório remoto
 
