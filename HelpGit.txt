@@ -19,13 +19,75 @@ $ git push -u origin <nome-da-branch>
 
 
 
+Setar usuário
+git config --global user.name 
+
+Setar email
+git config --global user.email 
+
+Setar editor
+git config --global core.editor vim
+
+Setar ferramenta de merge
+git config --global merge.tool vimdiff
+
+Setar arquivos a serem ignorados
+git config --global core.excludesfile ~/.gitignore
+
+Listar configurações
+git config --list
 
 
+
+Vincular repositório local com um repositório remoto
+git remote add origin
+
+
+Exibir informações dos repositórios remotos
+git remote show origin
+
+
+Renomear um repositório remoto
+git remote rename origin curso-git
+
+
+Desvincular um repositório remoto
+git remote rm curso-git
 
 
 
 Listando Arquivos Modificados
 $ git status
+
+
+
+
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push -u origin master
+
+
+Os demais pushes não precisam dessa informação
+
+git push
+
+
+
+
+Atualizar repositório local de acordo com o repositório remoto
+
+Atualizar os arquivos no branch atual
+git pull
+
+
+
+Buscar as alterações, mas não aplica-las no branch atual
+git fetch
+
+
+
+
+
 
 
 
