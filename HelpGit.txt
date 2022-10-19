@@ -12,7 +12,16 @@ Configurar o repositorio remoto >
 $ git config - -global user.name “seu nome”
 $ git config  - - global user.email “seu email”
 
-$ git remote add main (remote directory )
+$ git push <repositório-remoto> <nome-da-branch>. (Vincula o repositorio local a um repositorio remoto)
+
+Ou 
+$ git push -u origin <nome-da-branch>
+
+
+
+
+
+
 
 
 Listando Arquivos Modificados
