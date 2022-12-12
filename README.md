@@ -85,7 +85,7 @@ springdoc.swagger-ui.disable-swagger-default-url=true
 springdoc.packagesToScan=com.generation.blogpessoal.controller
 springdoc.swagger-ui.use-root-path=true
 
-| <img src="https://i.imgur.com/oScAYGc.png" title="source: imgur.com" width="80px"/> | <div align="left"> **ATENÇÃO:** *Não insira comentários no arquivo application.properties. Geralmente, durante o Deploy no <a href="https://www.heroku.com" target="_blank">Heroku</a>, comentários inseridos no arquivo application.properties causam erros de compilação do projeto.* </div> |
+ <img src="https://i.imgur.com/oScAYGc.png" title="source: imgur.com" width="80px"/> | <div align="left"> **ATENÇÃO:** *Não insira comentários no arquivo application.properties. Geralmente, durante o Deploy no <a href="https://www.heroku.com" target="_blank">Heroku</a>, comentários inseridos no arquivo application.properties causam erros de compilação do projeto.* </div>
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 ```
 <br />
