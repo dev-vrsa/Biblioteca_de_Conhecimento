@@ -25,9 +25,9 @@
 
 
 
-<h2>etar usuário</h2>
+<h2>Setar usuário</h2>
 
-<lil>$git config --global user.name 
+<li>$git config --global user.name 
 
 <h2>Setar email</h2>
 <li>$git config --global user.email 
