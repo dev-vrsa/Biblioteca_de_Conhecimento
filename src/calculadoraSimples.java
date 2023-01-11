@@ -6,9 +6,10 @@ public class calculadoraSimples {
         
         Scanner leia = new Scanner(System.in);
 
-        double x, y,menu = 0;
+        double x, y,menu = 0; 
+         // DECLARO DUAS VARIAVEIS X e Y para receber os valores do usuario e um MENU para controlar o laco de repeticao. 
         
-        while(menu < 1){
+        while(menu < 1){ // while para criar o laco de repeticao.
 
             System.out.println("Gostaria de realizar mais algum calculo ? \n \n Digite 0 para SIM. \n Digite 1 para Finalizar.");
             menu = leia.nextDouble();
@@ -25,7 +26,7 @@ public class calculadoraSimples {
         y = leia.nextDouble();
 
 
-
+// PARA FICAR MAIS ORGANIZADO CRIO UMA SERIE DE "Sys.out" PARA DEIXAR A IMPRESSAO MAIS SEPARADINHA.
         System.out.println("___________________________________");
         System.out.println("                                   ");
 
