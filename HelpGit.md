@@ -2,20 +2,20 @@
 
 
 <h2>Iniciando um Repositório</h2>
-$ git init
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin (COLE O SEU REPOSITORIO REMOTO)
-git push -u origin main
+<li>
+$git init
+$git add README.md
+$git commit -m "first commit"
+$git branch -M main
+$git remote add origin (COLE O SEU REPOSITORIO REMOTO)
+$git push -u origin main
+</li>
 
 <h2>Apagando um repositório</h2>
 $ rm -rf .git
 
 
-<h2>Configurar o repositorio remoto/h2>
+<h2>Configurar o repositorio remoto</h2>
 
 $ git config - -global user.name “seu nome”
 $ git config  - - global user.email “seu email”
