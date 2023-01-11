@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-
 public class estruturasCondicionaisSimplificado {
     public static void main(String[] args) {
 
@@ -27,7 +25,7 @@ public class estruturasCondicionaisSimplificado {
 
         int x , aux; // vamo usar apenas uma variavel x para armazenar os dados de entrada e uma variavel chamada "aux" como auxilar para o loop do while.
 
-        aux = 0; // atribuimos o valor de aux para 0 para que o while faca o primeiro loop.
+        aux = 0; // a--------------------------tribuimos o valor de aux para 0 para que o while faca o primeiro loop.
         while(aux < 1 ){ // WHILE CRIA UM LACO DE REPETICAO.
 
             System.out.println("\n Digite um numero positivo maior que 0:\n");  // PEDIMOS AO USUARIO INSERIR O DADO.
