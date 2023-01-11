@@ -20,8 +20,8 @@
 <li>$ git config - -global user.name “seu nome”
 <li>$ git config  - - global user.email “seu email”
 
-<li>$ git push <repositório-remoto> <nome-da-branch>. (Vincula o repositorio local a um repositorio remoto)
-<li>$ git push -u origin <nome-da-branch>
+<li>$ git push (repositório-remoto) (nome-da-branch)
+<li>$ git push -u origin (nome-da-branch)
 
 
 
@@ -47,7 +47,7 @@
 
 <h2> Vincular repositório local com um repositório remoto </h2>
 
-<li>$git remote add origin
+<li>$git remote add origin (link do repositorio remoto)
 
 
 <h2>Exibir informações dos repositórios remotos</h2>
@@ -55,7 +55,7 @@
 
 
 <h2>Renomear um repositório remoto</h2>
-<li>$git remote rename origin curso-git
+<li>$git remote rename origin example-nome
 
 
 <h2>Desvincular um repositório remoto</h2>
