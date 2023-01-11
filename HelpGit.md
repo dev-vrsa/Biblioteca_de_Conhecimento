@@ -2,14 +2,14 @@
 
 
 <h2>Iniciando um Repositório</h2>
-<li>
+<lu>
 $git init
 $git add README.md
 $git commit -m "first commit"
 $git branch -M main
 $git remote add origin (COLE O SEU REPOSITORIO REMOTO)
 $git push -u origin main
-</li>
+</lu>
 
 <h2>Apagando um repositório</h2>
 $ rm -rf .git
