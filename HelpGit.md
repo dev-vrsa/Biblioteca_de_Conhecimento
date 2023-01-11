@@ -67,7 +67,7 @@
  <li>$git status
 
 
-<h2> O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.<h2>
+<h2> O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.</h2>
 
 <li>$git push -u origin master
 
