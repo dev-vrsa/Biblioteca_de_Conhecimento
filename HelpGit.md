@@ -4,24 +4,24 @@
 <h2>Iniciando um Repositório</h2>
 
 <li>$git init</li>
-$git add README.md
-$git commit -m "first commit"
-$git branch -M main
-$git remote add origin (COLE O SEU REPOSITORIO REMOTO)
-$git push -u origin main
+<li>$git add README.md</li>
+<li>$git commit -m "first commit"</li>
+<li>$git branch -M main</li>
+<li>$git remote add origin (COLE O SEU REPOSITORIO REMOTO)</li>
+<li>$git push -u origin main</li>
 
 
 <h2>Apagando um repositório</h2>
-$ rm -rf .git
+<li>$ rm -rf .git</li>
 
 
 <h2>Configurar o repositorio remoto</h2>
 
-$ git config - -global user.name “seu nome”
-$ git config  - - global user.email “seu email”
+<li>$ git config - -global user.name “seu nome”
+<li>$ git config  - - global user.email “seu email”
 
-$ git push <repositório-remoto> <nome-da-branch>. (Vincula o repositorio local a um repositorio remoto)
-$ git push -u origin <nome-da-branch>
+<li>$ git push <repositório-remoto> <nome-da-branch>. (Vincula o repositorio local a um repositorio remoto)
+<li>$ git push -u origin <nome-da-branch>
 
 
 
