@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class calculadoraJava {
 
-        public static void main(String[] args) throws IOException {
+        public static void main(String[] args){
 
             Scanner read = new Scanner(System.in);
 
