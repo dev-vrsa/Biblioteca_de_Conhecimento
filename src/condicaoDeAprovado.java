@@ -39,26 +39,36 @@ public class condicaoDeAprovado {
         // SEGUNDO RECUPERACAO COM MEDIA ENTRE 5 E 7.
         // TERCEIRO REPROVADO COM MEDIA ABAIXO DE 5.
 
+
+
+        //PRIMEIRO BLOCO
         if (media > 7 && media < 10) {
 
             System.out.println("\n Aluno aprovado !!! ");
             System.out.println("Parabens !!!");
 
         }
+        //FIM DO PRIMEIRO BLOCO
 
+
+        //SEGUNDO BLOCO
         if (media > 5 && media < 7) {
 
             System.out.println("\n Aluno de recuperacao! ");
             System.out.println("Boa sorte!");
 
         }
+        //FIM DO SEGUNDO BLOCO
 
+
+        //TERCEIRO BLOCO
         if (media > 0 && media < 5) {
 
             System.out.println("\n Aluno reprovado! ");
             System.out.println("Estude mais!");
 
         }
+        //FIM DO TERCEIRO BLOCO
     }
 }
 
