@@ -1,13 +1,17 @@
+//PROXIMA LINHA CONTEM AS IMPORTACOES DAS BIBLIOTECAS UTILIZADAS.
 import java.util.Scanner;
 
+
+//PROXIMA LINHA CONTEM A CLASSE DE NOME: "condicaoDeAprovado" E INICIO DO METODO VAZIO STATICO.
 public class condicaoDeAprovado {
     public static void main(String[] args) {
 
-        // SCANNER
+        // PROXIMA LINHA CRIAMOS O SCANNER QUE IRA LER OS DADOS INSERIDOS PELO USUARIO.
         Scanner read = new Scanner(System.in);
 
 
-        //ENTRADAS DO USUARIO
+        // DA LINHA 13 ATE A LINHA 24 TEREMOS AS PERGUNTAS E ENTRADA DE DADOS DO USUARIO.
+        //OBS: NA ENTRADA DE DADOS DO USUARIO JA CALCULAMOS 1/4 DO VALOR DA NOTA DO BIMESTRE MULTIPLICANDO O DADO DE ENTRADA POR "0.25".
         System.out.println("Nota do primeiro bimestre : ");
         double nota1Bimestre = (read.nextDouble() * 0.25);
 
@@ -21,11 +25,19 @@ public class condicaoDeAprovado {
         double nota4Bimestre = (read.nextDouble() * 0.25);
 
 
-        //CALCULO
+        //NA PROXIMA LINHA CRIAMOS UMA VARIAVEL CHAMADA "MEDIA" E SOMAMOS AS NOTAS RESULTANTES DA ENTRADA DO USUARIO.
         double media = (nota1Bimestre + nota2Bimestre + nota3Bimestre + nota4Bimestre);
 
+
+        // NA PROXIMA LINHA IMPRIMIMOS O VALOR ARMAZENADO NA MEMORIA DA VARIAVEL "MEDIA".
         System.out.println("\n A media do aluno foi: "+media);
-        //CONDICAO
+
+
+
+        // DA LINHA 42 A LINHA 61 CRIAREMOS 3 CONDICOES:
+        // PRIMEIRA DE APROVADO COM MEDIA ENTRE 7 E 10.
+        // SEGUNDO RECUPERACAO COM MEDIA ENTRE 5 E 7.
+        // TERCEIRO REPROVADO COM MEDIA ABAIXO DE 5.
 
         if (media > 7 && media < 10) {
 
@@ -50,4 +62,6 @@ public class condicaoDeAprovado {
     }
 }
 
-// CREDITOS : Thiagao  Arica o brabo do java.
+// CREDITOS:
+// VICTOR SA (SOFTWARE DEVELOPER)
+// THIAGO ARICA (SOFTWARE DEVELOPER)
