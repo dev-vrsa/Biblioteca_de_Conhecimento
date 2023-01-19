@@ -1,4 +1,4 @@
-
+package ExerciciosBasicos;
 //VETORES BIDIMENSIONAIS 2 x 2
 
 
@@ -12,7 +12,7 @@ public class ArrayListSimplificado {
 
 
         //AQUI CRIAMOS UM VETOR DE 2 x 2 INSERINDO MANUALMENTE OS VALORES.
-        int [][] matriz2x2 = { { 1, 2 }, { 3, 4 } };
+        int [][] matriz2x2 = { { 5, 7 }, { 10, 12 } };
 
 
         //AQUI UTILIZAMOS O FOR PARA PERCORRER AS POSICOES DO VETOR E IMPRIMIR OS DADOS PRESENTES NAS POSICOES EM SEQUENCIA.

@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d17c7e3-5053-481c-be5c-4d70db0e3aea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayListSimplificado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciosPolimorfismoHerenca/Funcoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciosPolimorfismoHerenca/leitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciosPolimorfismoHerenca/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fibonacci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fibonacci/FibonacciSimples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/condicaoDeAprovado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/condicaoDeAprovado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/ArrayListSimplificado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/MinhaPrimeiraClasse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/arrrayJavaBasico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/calculadoraJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/calculadoraSimples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/condicaoDeAprovado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/estruturasCondicionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/estruturasCondicionaisSimplificado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/helloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Biblioteca_de_Conhecimento/lambdaEmJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListSimplificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/ArrayListSimplificado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinhaPrimeiraClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/MinhaPrimeiraClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrrayJavaBasico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/arrrayJavaBasico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculadoraJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/calculadoraJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculadoraSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/calculadoraSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condicaoDeAprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/condicaoDeAprovado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturasCondicionais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/estruturasCondicionais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturasCondicionaisSimplificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/estruturasCondicionaisSimplificado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/helloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdaEmJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosBasicos/lambdaEmJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +73,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
-  <component name="RunManager" selected="Application.ArrayListSimplificado">
+}]]></component>
+  <component name="RunManager" selected="Application.FibonacciSimples">
     <configuration name="ArrayListSimplificado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListSimplificado" />
+      <option name="MAIN_CLASS_NAME" value="ExerciciosBasicos.ArrayListSimplificado" />
       <module name="Biblioteca_de_Conhecimento" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculadoraJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculadoraJava" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.Fibonacci" />
       <module name="Biblioteca_de_Conhecimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciSimples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.FibonacciSimples" />
+      <module name="Biblioteca_de_Conhecimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,11 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciciosPolimorfismoHerenca.main" />
+      <module name="Biblioteca_de_Conhecimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciciosPolimorfismoHerenca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSimples" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.ArrayListSimplificado" />
         <item itemvalue="Application.condicaoDeAprovado" />
-        <item itemvalue="Application.calculadoraJava" />
       </list>
     </recent_temporary>
   </component>

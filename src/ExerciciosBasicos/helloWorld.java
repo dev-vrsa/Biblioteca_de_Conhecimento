@@ -1,3 +1,5 @@
+package ExerciciosBasicos;
+
 public class helloWorld {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package ExerciciosBasicos;
+
 //PROXIMA LINHA CONTEM AS IMPORTACOES DAS BIBLIOTECAS UTILIZADAS.
 import java.util.Scanner;
 

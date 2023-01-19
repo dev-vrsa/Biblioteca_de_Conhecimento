@@ -1,3 +1,5 @@
+package ExerciciosBasicos;
+
 public class MinhaPrimeiraClasse {
 
 
