@@ -112,7 +112,12 @@ A opção -D ignora o estado da sua branch, forçando a sua remoção.
 <h2> Renomeando branches</h2> 
 <h3>Para renomear a sua atual branch local, execute o comando branch com a opção -m, passando o novo nome.</h3>
 
-<li>$git branch -m novo-nome-da-branch
+<li>$git branch -m novo-nome-da-branch</li>
+<li>// excluir um branch no local
+git branch -d nomeDoBranchLocal</li>
+
+// excluir um branch remoto
+git push origin --delete nomeDoBranchRemoto
 
 
 <h3>Se você estiver em uma branch e quiser renomear outra, você deve passar primeiro o nome atual da branch que quer renomear:</h3>
